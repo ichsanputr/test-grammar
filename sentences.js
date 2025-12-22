@@ -1,17 +1,13 @@
 export default [
     // --- Present Simple ---
-    "I wake up at 6 AM every day.",
-    "She works as a teacher.",
-    "The sun sets in the west.",
-    "They play football on Sundays.",
-    "He doesn't like spicy food.",
+    "She works as a senior teacher at the local high school.",
+    "The sun sets in the west every evening.",
+    "They play football every Sunday morning.",
 
     // --- Present Continuous ---
-    "I am reading a book right now.",
-    "He is studying for his exams.",
-    "They are playing in the park.",
-    "She is not listening to me.",
-    "Are you coming with us?",
+    "I am reading a very interesting book right now.",
+    "He is studying hard for his final exams.",
+    "They are playing in the park despite the rain.",
 
     // --- Present Perfect ---
     "I have visited Paris three times.",
@@ -21,18 +17,14 @@ export default [
     "Have you ever eaten sushi?",
 
     // --- Present Perfect Continuous ---
-    "I have been waiting for you for an hour.",
-    "She has been working on this project all week.",
-    "They have been playing video games since morning.",
+
     "He has been feeling unwell lately.",
     "We have been trying to contact you.",
 
     // --- Past Simple ---
-    "I bought a new car yesterday.",
-    "She graduated from college last year.",
-    "They went to the beach last weekend.",
-    "He didn't come to the party.",
-    "Did you enjoy the concert?",
+    "I bought a new car yesterday after saving for months.",
+    "She graduated from college with good grades last year.",
+    "They went to the beach last weekend to relax.",
 
     // --- Past Continuous ---
     "I was sleeping when you called.",
@@ -56,11 +48,9 @@ export default [
     "We had been expecting you all day.",
 
     // --- Future Simple (will) ---
-    "I will help you with your homework.",
-    "She will turn 21 next month.",
-    "I think it will rain tomorrow.",
-    "They will probably arrive late.",
-    "Will you marry me?",
+    "I will help you with your homework after dinner.",
+    "She will celebrate her birthday with a party next month.",
+    "I think it will rain heavily tomorrow evening.",
 
     // --- Future with “going to” ---
     "I am going to buy a new phone soon.",
@@ -242,6 +232,23 @@ export default [
     "Could you clarify what you mean by that?",
     "It was a pleasure meeting you today.",
     "Let's keep in touch.",
+
+    // --- More Conversation Sentences ---
+    "How have you been lately?",
+    "It's been a long time since we last met.",
+    "What do you do for a living?",
+    "Could you recommend a good restaurant nearby?",
+    "I'm sorry, I didn't catch that.",
+    "Would you like to grab a coffee sometime?",
+    "That's a great idea, let's do it!",
+    "I'm looking forward to hearing from you.",
+    "Can I help you with anything?",
+    "What are your plans for the weekend?",
+    "It's a small world, isn't it?",
+    "I really appreciate your help.",
+    "Sorry to bother you, but do you have a minute?",
+    "Let me know if you need anything else.",
+    "Have a safe trip home!",
 
     // --- Hobbies ---
     "I enjoy reading science fiction novels in my free time.",

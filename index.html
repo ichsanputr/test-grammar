@@ -50,36 +50,21 @@
   <textarea id="input" placeholder="Rewrite the sentence here..."></textarea>
 
   <br />
-  <button onclick="checkAnswer()">Check</button>
-  <button onclick="nextSentence()">Next</button>
+  <button id="checkBtn">Check</button>
+  <button id="nextBtn">Next</button>
 
   <div class="result" id="result"></div>
 
-  <script>
-    const sentences = [
-      "I wake up early on weekdays.",
-      "She usually drinks coffee before work.",
-      "They play badminton every Saturday.",
-      "He studies English after dinner.",
-      "We often take the bus to school.",
-      "I am learning English every day now.",
-      "She watched a movie last night.",
-      "They didn’t finish the project on time.",
-      "He was working when you called.",
-      "We will travel next month.",
-      "I am going to study after dinner.",
-      "Can you help me with this task?",
-      "Even though it was raining, we went out.",
-      "I have finished my homework already.",
-      "She has been working here since June."
-      // 👉 you can paste ALL 200 sentences here
-    ];
+  <script type="module">
+    import sentences from "./sentences.js";
 
     let index = 0;
 
     const sentenceEl = document.getElementById("sentence");
     const inputEl = document.getElementById("input");
     const resultEl = document.getElementById("result");
+    const checkBtn = document.getElementById("checkBtn");
+    const nextBtn = document.getElementById("nextBtn");
 
     function showSentence() {
       sentenceEl.textContent = sentences[index];
@@ -108,6 +93,9 @@
       }
       showSentence();
     }
+
+    checkBtn.addEventListener("click", checkAnswer);
+    nextBtn.addEventListener("click", nextSentence);
 
     showSentence();
   </script>

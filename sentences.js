@@ -230,5 +230,52 @@ export default [
     "Although he is rich, he is not happy.",
     "When you arrive, give me a call.",
     "I will wait until you finish.",
-    "Since we are early, let's have coffee."
+    "Since we are early, let's have coffee.",
+    // --- Interviews & Conversation ---
+    "Can you tell me a little about yourself?",
+    "What are your greatest strengths and weaknesses?",
+    "Why do you want to work for this company?",
+    "Where do you see yourself in five years?",
+    "Do you have any questions for us?",
+    "That sounds interesting, tell me more.",
+    "I completely agree with your point of view.",
+    "Could you clarify what you mean by that?",
+    "It was a pleasure meeting you today.",
+    "Let's keep in touch.",
+
+    // --- Hobbies ---
+    "I enjoy reading science fiction novels in my free time.",
+    "Gardening helps me relax after a long day.",
+    "He is passionate about playing the guitar.",
+    "We love hiking and exploring new trails on weekends.",
+    "Collecting stamps has been her hobby since childhood.",
+    "I recently started learning how to paint with watercolors.",
+    "Do you have any hobbies you are passionate about?",
+    "She spends her spare time knitting scarves for her friends.",
+    "Photography allows me to capture beautiful moments.",
+    "Playing chess challenges my mind and improves my focus.",
+
+    // --- Dream Job ---
+    "My dream job involves traveling the world and meeting new people.",
+    "I have always wanted to be a pilot.",
+    "She aspires to become a successful architect.",
+    "Working as a marine biologist would be a dream come true for him.",
+    "I hope to start my own business one day.",
+    "He dreams of working for a top tech company in Silicon Valley.",
+    "Being a teacher allow one to shape the future generation.",
+    "I would love to have a career in renewable energy.",
+    "My ideal job is one where I can be creative every day.",
+    "She is working hard to land her dream job in fashion design.",
+
+    // --- Australia Work Behaviour ---
+    "In Australia, we value a fair go for everyone.",
+    "Mateship is an important part of the workplace culture.",
+    "It is common to call your boss by their first name.",
+    "Australians appreciate direct and honest communication.",
+    "We often have a casual Friday dress code.",
+    "Punctuality is expected for meetings and appointments.",
+    "Humor is often used to build rapport with colleagues.",
+    "Work-life balance is highly respected in Australian companies.",
+    " 'No worries' is a common phrase you will hear in the office.",
+    "Teamwork and collaboration are essential for success."
 ];

@@ -43,15 +43,11 @@
 <body>
 
   <h1>Rewrite Practice</h1>
-  <p>Read the sentence, rewrite it exactly, then check.</p>
+  <p>Enter = check · Tab = next</p>
 
   <div class="sentence" id="sentence"></div>
 
   <textarea id="input" placeholder="Rewrite the sentence here..."></textarea>
-
-  <br />
-  <button id="checkBtn">Check</button>
-  <button id="nextBtn">Next</button>
 
   <div class="result" id="result"></div>
 
@@ -63,18 +59,24 @@
     const sentenceEl = document.getElementById("sentence");
     const inputEl = document.getElementById("input");
     const resultEl = document.getElementById("result");
-    const checkBtn = document.getElementById("checkBtn");
-    const nextBtn = document.getElementById("nextBtn");
+
+    function normalize(text) {
+      return text
+        .trim()
+        .replace(/\.$/, "") // remove ending dot
+        .toLowerCase();
+    }
 
     function showSentence() {
       sentenceEl.textContent = sentences[index];
       inputEl.value = "";
       resultEl.textContent = "";
+      inputEl.focus();
     }
 
     function checkAnswer() {
-      const userText = inputEl.value.trim();
-      const correctText = sentences[index];
+      const userText = normalize(inputEl.value);
+      const correctText = normalize(sentences[index]);
 
       if (userText === correctText) {
         resultEl.textContent = "✅ Correct!";
@@ -94,8 +96,17 @@
       showSentence();
     }
 
-    checkBtn.addEventListener("click", checkAnswer);
-    nextBtn.addEventListener("click", nextSentence);
+    // Keyboard controls
+    inputEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        checkAnswer();
+      }
+      if (e.key === "Tab") {
+        e.preventDefault();
+        nextSentence();
+      }
+    });
 
     showSentence();
   </script>

@@ -1,288 +1,74 @@
 export default [
-    // --- Present Simple ---
-    "She works as a senior teacher at the local high school.",
-    "The sun sets in the west every evening.",
-    "They play football every Sunday morning.",
+    // --- Tell Me About Yourself ---
+    "Thank you for the chance to introduce myself. I am a hard worker who loves to learn new things. Over the last few years, I have learned many skills that help me solve problems in creative ways. I am ready to use what I know to help with new projects.",
 
-    // --- Present Continuous ---
-    "I am reading a very interesting book right now.",
-    "He is studying hard for his final exams.",
-    "They are playing in the park despite the rain.",
+    "I am a very organized person who pays attention to small details. In my past jobs, I always focused on doing good work quickly. I like working in teams where I can help others so we can all reach our goals together.",
 
-    // --- Present Perfect ---
-    "I have visited Paris three times.",
-    "She has already finished her homework.",
-    "We have lived here since 2010.",
-    "They haven't seen that movie yet.",
-    "Have you ever eaten sushi?",
+    "Since I was young, I have always liked knowing how things work. This made me want to work in this field. I have spent a lot of time improving my technical skills and learning about new things in the industry. My journey has taught me to never give up and to be ready for change.",
 
-    // --- Present Perfect Continuous ---
+    // --- My Dream Job ---
+    "My dream job is a place where I can do important work and keep growing. I want a job that makes me think and lets me work on new and cool projects. It would be great to work for a company that cares about new ideas, honesty, and helping its workers grow.",
 
-    "He has been feeling unwell lately.",
-    "We have been trying to contact you.",
+    "I have always wanted to work in a place where people talk openly and help each other. My dream job would be working with a team of skilled people who love what they do. I believe a happy workplace is key to enjoying your job and doing well.",
 
-    // --- Past Simple ---
-    "I bought a new car yesterday after saving for months.",
-    "She graduated from college with good grades last year.",
-    "They went to the beach last weekend to relax.",
+    "In the end, my dream job is not just about the name or the money, but about how it makes me feel. I want to wake up every morning happy about my work and the people I work with. Finding a job that fits my values is the most important thing to me.",
 
-    // --- Past Continuous ---
-    "I was sleeping when you called.",
-    "She was cooking dinner while he was watching TV.",
-    "It was raining heavily all night.",
-    "They were not paying attention.",
-    "What were you doing at 8 PM?",
+    // --- Concrete Plans for Dream Job ---
+    "Now that I know what my dream job looks like, I am taking real steps to get there. I plan to take more classes to learn more and get certificates. Meeting other people in this field is also a big part of my plan to find new chances.",
 
-    // --- Past Perfect ---
-    "I had already eaten when they arrived.",
-    "She had left the office before I got there.",
-    "The movie had started by the time we arrived.",
-    "He realized he had forgotten his keys.",
-    "Had you seen him before the meeting?",
+    "I know that having real work experience is very important, so I am looking for internships and freelance work. These jobs will let me use what I learned in real life and show what I can do. I am ready to work hard to get from where I am now to where I want to be.",
 
-    // --- Past Perfect Continuous ---
-    "I had been working there for five years before I quit.",
-    "She had been waiting for 30 minutes when the bus came.",
-    "They had been arguing for hours before agreeing.",
-    "He had been running, so he was out of breath.",
-    "We had been expecting you all day.",
+    "Besides technical skills, I am also working on my people skills, like talking clearly and leading others. I believe being good at many things will help me get my dream job. I am setting clear goals to check my progress and make sure I am on the right track.",
 
-    // --- Future Simple (will) ---
-    "I will help you with your homework after dinner.",
-    "She will celebrate her birthday with a party next month.",
-    "I think it will rain heavily tomorrow evening.",
+    // --- Dream Job: Tech Entrepreneur ---
+    "My biggest goal is to start my own tech business. I want to build software that fixes real problems for people. I want to run a company where new ideas are the most important thing. I love the excitement of turning a simple idea into something real.",
 
-    // --- Future with “going to” ---
-    "I am going to buy a new phone soon.",
-    "Look at those clouds; it is going to rain.",
-    "We are going to visit our grandparents this weekend.",
-    "She is going to start a new job.",
-    "Are you going to eat that?",
+    "Running a tech business means doing many different jobs, from writing code to talking to investors. I am ready for the risks because I believe technology can change the world. My dream is to build a strong business that will last for a long time.",
 
-    // --- Future Continuous ---
-    "This time next week, I will be flying to London.",
-    "She will be working late tonight.",
-    "They will be having dinner when you arrive.",
-    "I will be waiting for you at the station.",
-    "Will you be using the car tomorrow?",
+    // --- Journey as a Programmer ---
+    "I started coding because I wanted to know how video games were made. I wrote small programs and often made mistakes, but fixing them taught me to be patient. Over time, I fell in love with building complex things and solving hard logic puzzles.",
 
-    // --- Future Perfect ---
-    "I will have finished the report by Friday.",
-    "She will have graduated by next summer.",
-    "We will have lived here for ten years by 2025.",
-    "They will have left by the time we get there.",
-    "Will you have completed the task by noon?",
+    "Going from a beginner to a pro has been a long road of learning. I remember how happy I was when my first project worked online. I also learned a lot from my first big mistake. Every line of code I write helps me become better at solving problems.",
 
-    // --- Future Perfect Continuous ---
-    "By next month, I will have been working here for a year.",
-    "She will have been studying for six hours by the time you come.",
-    "They will have been traveling for two days by tomorrow.",
-    "He will have been driving for ten hours straight.",
-    "How long will you have been waiting?",
+    // --- Australian IT Work Culture ---
+    "Work in Australia is known for being friendly and fair. Bosses and workers often talk like friends, and everyone is treated with respect. This creates a supportive place where people help each other and work well as a team.",
 
-    // --- Modal Verbs (can, could, may, might, must, should, would) ---
-    "You can swim very well.",
-    "Could you pass me the salt, please?",
-    "It might rain later today.",
-    "You must wear a seatbelt while driving.",
-    "You should see a doctor if you feel sick.",
-    "I would like to order a pizza.",
-    "May I ask a question?",
+    "Australian tech companies care a lot about having a life outside of work. They want you to work hard, but they also want you to rest and be healthy. People like honest and clear talk. They value getting the work done without making things too formal or complicated.",
 
-    // --- Imperative ---
-    "Close the door, please.",
-    "Do not walk on the grass.",
-    "Turn left at the next intersection.",
-    "Be quiet immediately.",
-    "Please help me with this box.",
+    // --- Moving to Australia: Real Advice ---
+    "Many people say it is better to be in Australia before you start applying for jobs. Having a local phone number and address makes employers trust you more. If you are still overseas, they might think you are too risky to hire.",
 
-    // --- Conditional Zero ---
-    "If you heat ice, it melts.",
-    "If it rains, the ground gets wet.",
-    "If I drink coffee at night, I cannot sleep.",
-    "Plants die if they don't get water.",
-    "If you mix red and yellow, you get orange.",
+    "The hiring process in Australia is slower than in other countries like the US or Korea. You need to be patient. It might take a few months to find a job, so it is important to have enough savings while you wait.",
 
-    // --- First Conditional ---
-    "If it rains tomorrow, we will cancel the picnic.",
-    "If you study hard, you will pass the exam.",
-    "If I see him, I will tell him the news.",
-    "She will be angry if you are late.",
-    "What will you do if you miss the bus?",
+    "Living in big cities like Sydney is very expensive, and finding a rental apartment is difficult. Some people prefer Melbourne because it can be a little cheaper. No matter where you go, the lifestyle is very good because people care about work-life balance.",
 
-    // --- Second Conditional ---
-    "If I won the lottery, I would buy a big house.",
-    "If I were you, I would apologize.",
-    "If she had more time, she would travel more.",
-    "I would learn French if I lived in Paris.",
-    "What would you do if you found a wallet?",
+    // --- Job Hunting Tips ---
+    "Some programming languages like .NET are very popular in Australia. It helps to check what skills are needed before you move. Talking to recruiters in person after you arrive can also help you find a job faster.",
 
-    // --- Third Conditional ---
-    "If I had known you were coming, I would have baked a cake.",
-    "If he had studied harder, he would have passed the test.",
-    "If we had taken a taxi, we would not have been late.",
-    "She would have called if she had had your number.",
-    "I wouldn't have done it if I had known the consequences.",
+    "Companies really prefer people who have a Permanent Resident visa. It is harder for people on temporary visas because companies worry you might leave. However, if you are skilled and persistent, you can still find a great role.",
 
-    // --- Mixed Conditional ---
-    "If I had studied harder at school, I would have a better job now.",
-    "If she were more careful, she wouldn't have broken the vase yesterday.",
-    "If they had booked the tickets, they would be here now.",
-    "If I hadn't spent all my money, I could buy this coat.",
-    "If he were a good driver, he wouldn't have crashed the car.",
+    // --- Job Market Reality ---
+    "When applying for jobs, do not be scared by the large number of other people applying. Many of them do not have the right visa or skills. If you focus on your own strengths and experience, you still have a good chance to succeed.",
 
-    // --- Passive Voice (present) ---
-    "The house is cleaned every day.",
-    "English is spoken in many countries.",
-    "These products are made in Japan.",
-    "The mail is delivered in the morning.",
-    "Is breakfast served here?",
+    "Writing a good cover letter is very important in Australia. Companies want to know who you are, not just what technical skills you have. Showing your personality can help you prove that you will fit in well with the team.",
 
-    // --- Passive Voice (past) ---
-    "The letter was written yesterday.",
-    "The car was repaired by the mechanic.",
-    "My wallet was stolen last week.",
-    "The house was built in 1990.",
-    "Were you invited to the party?",
+    // --- Standing Out ---
+    "Networking is one of the best ways to find a job. Going to local meetups and talking to people can open new doors. Often, jobs are given to people who are known by someone in the company, rather than strangers who apply online.",
 
-    // --- Passive Voice (future) ---
-    "The project will be completed next week.",
-    "The decision will be made tomorrow.",
-    "The road will be closed for repairs.",
-    "Your application will be reviewed soon.",
-    "Nothing will be forgotten.",
+    "Building your own small projects can help you stand out from other candidates. It shows you really love coding and keeps your skills sharp. You can show these projects to managers to prove what you can do, even if you don't have a job yet.",
 
-    // --- Reported Speech ---
-    "He said that he was tired.",
-    "She told me that she loved chocolate.",
-    "They asked if I was coming to the party.",
-    "He asked where I lived.",
-    "She said she had finished her work.",
+    // --- Staying Positive ---
+    "If you cannot find a job right away, it is okay to do other work to pay the bills. Working in a shop or warehouse can keep you busy and help you meet people. It also shows that you are willing to work hard and not give up.",
 
-    // --- Question Forms ---
-    "Where do you live?",
-    "What are you doing?",
-    "Have you seen my keys?",
-    "Why is the sky blue?",
-    "Who called you last night?",
+    "The job search can be long and hard, but it is important to stay positive. Use your free time to learn new things or fix up your health. Remember that many successful people have faced hard times before finding the right job.",
 
-    // --- Negative Forms ---
-    "I do not like spicy food.",
-    "She is not coming to the party.",
-    "We haven't finished yet.",
-    "He cannot drive a car.",
-    "They didn't enjoy the movie.",
+    // --- Career Switching Advice ---
+    "If you are switching careers, your past experience is still valuable. For example, if you worked in audio engineering, you might find a software job in a music or media company. Using your unique background can help you stand out from fresh graduates.",
 
-    // --- Comparatives ---
-    "This house is bigger than mine.",
-    "She is taller than her brother.",
-    "The book is more interesting than the movie.",
-    "He is getting better at tennis.",
-    "It is farther than I thought.",
+    "Building a portfolio of real projects is often more important than just having a degree. Employers want to see that you can actually build things that work. Try to create useful tools or apps instead of just copying simple tutorials.",
 
-    // --- Superlatives ---
-    "He is the tallest boy in the class.",
-    "This is the most delicious cake I have ever eaten.",
-    "Mount Everest is the highest mountain in the world.",
-    "It was the worst day of my life.",
-    "She is the smartest student in the school.",
+    // --- Education: Degree vs Experience ---
+    "There is a big debate about whether you need a computer science degree to get a job. While a degree can help you get past the first screening, many hiring managers care more about your actual coding skills. However, for some big companies or banks, a degree might still be required.",
 
-    // --- Gerunds ---
-    "Swimming is my favorite sport.",
-    "I enjoy reading books.",
-    "He stopped smoking last year.",
-    "She is good at painting.",
-    "Do you mind waiting a moment?",
-
-    // --- Infinitives ---
-    "I want to learn Spanish.",
-    "It is important to be on time.",
-    "She decided to leave early.",
-    "I promised to help her.",
-    "He went to the store to buy milk.",
-
-    // --- Relative Clauses ---
-    "The man who called yesterday is my uncle.",
-    "The book that I borrowed is very interesting.",
-    "This is the house where I was born.",
-    "Do you know the girl who is singing?",
-    "The car which he bought is very expensive.",
-
-    // --- Adjective Clauses ---
-    "The student whose phone rang was embarrassed.",
-    "The reason why he left is unknown.",
-    "The day when we met was unforgettable.",
-    "I know a place where we can eat.",
-    "She is the person whom I admire most.",
-
-    // --- Adverb Clauses ---
-    "Because it was raining, we stayed inside.",
-    "Although he is rich, he is not happy.",
-    "When you arrive, give me a call.",
-    "I will wait until you finish.",
-    "Since we are early, let's have coffee.",
-    // --- Interviews & Conversation ---
-    "Can you tell me a little about yourself?",
-    "What are your greatest strengths and weaknesses?",
-    "Why do you want to work for this company?",
-    "Where do you see yourself in five years?",
-    "Do you have any questions for us?",
-    "That sounds interesting, tell me more.",
-    "I completely agree with your point of view.",
-    "Could you clarify what you mean by that?",
-    "It was a pleasure meeting you today.",
-    "Let's keep in touch.",
-
-    // --- More Conversation Sentences ---
-    "How have you been lately?",
-    "It's been a long time since we last met.",
-    "What do you do for a living?",
-    "Could you recommend a good restaurant nearby?",
-    "I'm sorry, I didn't catch that.",
-    "Would you like to grab a coffee sometime?",
-    "That's a great idea, let's do it!",
-    "I'm looking forward to hearing from you.",
-    "Can I help you with anything?",
-    "What are your plans for the weekend?",
-    "It's a small world, isn't it?",
-    "I really appreciate your help.",
-    "Sorry to bother you, but do you have a minute?",
-    "Let me know if you need anything else.",
-    "Have a safe trip home!",
-
-    // --- Hobbies ---
-    "I enjoy reading science fiction novels in my free time.",
-    "Gardening helps me relax after a long day.",
-    "He is passionate about playing the guitar.",
-    "We love hiking and exploring new trails on weekends.",
-    "Collecting stamps has been her hobby since childhood.",
-    "I recently started learning how to paint with watercolors.",
-    "Do you have any hobbies you are passionate about?",
-    "She spends her spare time knitting scarves for her friends.",
-    "Photography allows me to capture beautiful moments.",
-    "Playing chess challenges my mind and improves my focus.",
-
-    // --- Dream Job ---
-    "My dream job involves traveling the world and meeting new people.",
-    "I have always wanted to be a pilot.",
-    "She aspires to become a successful architect.",
-    "Working as a marine biologist would be a dream come true for him.",
-    "I hope to start my own business one day.",
-    "He dreams of working for a top tech company in Silicon Valley.",
-    "Being a teacher allow one to shape the future generation.",
-    "I would love to have a career in renewable energy.",
-    "My ideal job is one where I can be creative every day.",
-    "She is working hard to land her dream job in fashion design.",
-
-    // --- Australia Work Behaviour ---
-    "In Australia, we value a fair go for everyone.",
-    "Mateship is an important part of the workplace culture.",
-    "It is common to call your boss by their first name.",
-    "Australians appreciate direct and honest communication.",
-    "We often have a casual Friday dress code.",
-    "Punctuality is expected for meetings and appointments.",
-    "Humor is often used to build rapport with colleagues.",
-    "Work-life balance is highly respected in Australian companies.",
-    " 'No worries' is a common phrase you will hear in the office.",
-    "Teamwork and collaboration are essential for success."
+    "Bootcamps can teach you practical skills quickly, but they might not be enough on their own in a tough market. Self-taught developers who show deep curiosity and can solve hard problems are often highly respected. The key is to keep learning and building, no matter how you start."
 ];

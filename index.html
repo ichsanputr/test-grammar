@@ -170,17 +170,8 @@
 <body>
 
     <div class="header-container">
-        <h1>Indonesian to English Translation Practice</h1>
+        <h1>Indonesian to English - Learn Common Words</h1>
         <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
-    </div>
-    
-    <div style="margin-bottom: 20px;">
-        <label for="categorySelect" style="font-weight: bold;">Select Category: </label>
-        <select id="categorySelect" style="padding: 8px; font-size: 16px;">
-            <option value="sentences.js">Tenses</option>
-            <option value="sentences-questions.js">Conversation (Q&A)</option>
-            <option value="sentences-verbs.js">Verbs</option>
-        </select>
     </div>
 
     <p>Tab = check (auto next if correct)</p>
@@ -196,14 +187,13 @@
     <div class="result" id="result"></div>
 
     <script type="module">
-        let sentences = [];
+        let words = [];
         let index = 0;
 
         const sentenceEl = document.getElementById("sentence");
         const inputEl = document.getElementById("input");
         const resultEl = document.getElementById("result");
         const checkBtn = document.getElementById("checkBtn");
-        const categorySelect = document.getElementById("categorySelect");
         const themeToggle = document.getElementById("themeToggle");
         let isChecked = false;
 
@@ -220,32 +210,27 @@
             themeToggle.textContent = newTheme === 'dark' ? '🌙' : '☀️';
         });
 
-        async function loadSentences(filepath) {
+        async function loadWords() {
             try {
-                const module = await import(`./${filepath}`);
-                sentences = module.default;
+                const module = await import('./words.js');
+                words = module.default;
                 
-                // Shuffle sentences to randomize order
-                for (let i = sentences.length - 1; i > 0; i--) {
+                // Shuffle words to randomize order
+                for (let i = words.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
-                    [sentences[i], sentences[j]] = [sentences[j], sentences[i]];
+                    [words[i], words[j]] = [words[j], words[i]];
                 }
                 
                 index = 0;
                 showSentence();
             } catch (error) {
-                console.error("Error loading sentences:", error);
-                alert("Failed to load sentences file");
+                console.error("Error loading words:", error);
+                alert("Failed to load words file");
             }
         }
 
-        // Load initial sentences
-        loadSentences(categorySelect.value);
-
-        // Handle category change
-        categorySelect.addEventListener("change", (e) => {
-            loadSentences(e.target.value);
-        });
+        // Load words
+        loadWords();
 
         function normalize(text) {
             return text
@@ -255,7 +240,7 @@
         }
 
         function showSentence() {
-            sentenceEl.textContent = sentences[index].question;
+            sentenceEl.textContent = words[index].indonesian;
             inputEl.value = "";
             resultEl.textContent = "";
             isChecked = false;
@@ -264,7 +249,7 @@
 
         function checkAnswer() {
             const userText = normalize(inputEl.value);
-            const correctText = normalize(sentences[index].answer);
+            const correctText = normalize(words[index].english);
 
             if (userText === correctText) {
                 resultEl.textContent = "✅ Correct!";
@@ -275,7 +260,7 @@
                     nextSentence();
                 }, 500);
             } else {
-                resultEl.textContent = `❌ Not correct. Answer: ${sentences[index].answer}`;
+                resultEl.textContent = `❌ Not correct. Answer: ${words[index].english}`;
                 resultEl.style.color = "red";
                 isChecked = true;
             }
@@ -283,9 +268,9 @@
 
         function nextSentence() {
             index++;
-            if (index >= sentences.length) {
+            if (index >= words.length) {
                 index = 0;
-                alert("You finished all sentences! Starting again.");
+                alert("You finished all words! Starting again.");
             }
             showSentence();
         }

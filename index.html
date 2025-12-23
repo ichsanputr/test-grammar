@@ -120,15 +120,14 @@
         </select>
     </div>
 
-    <p>Enter = check · Tab = next</p>
+    <p>Tab = check (auto next if correct)</p>
 
     <div class="sentence" id="sentence"></div>
 
     <textarea id="input" placeholder="Translate to English..."></textarea>
 
     <div class="buttons">
-        <button id="checkBtn">Check Answer</button>
-        <button id="nextBtn">Next Question</button>
+        <button id="checkBtn">Check Answer (Tab)</button>
     </div>
 
     <div class="result" id="result"></div>
@@ -141,8 +140,8 @@
         const inputEl = document.getElementById("input");
         const resultEl = document.getElementById("result");
         const checkBtn = document.getElementById("checkBtn");
-        const nextBtn = document.getElementById("nextBtn");
         const categorySelect = document.getElementById("categorySelect");
+        let isChecked = false;
 
         async function loadSentences(filepath) {
             try {
@@ -182,6 +181,7 @@
             sentenceEl.textContent = sentences[index].question;
             inputEl.value = "";
             resultEl.textContent = "";
+            isChecked = false;
             inputEl.focus();
         }
 
@@ -192,9 +192,15 @@
             if (userText === correctText) {
                 resultEl.textContent = "✅ Correct!";
                 resultEl.style.color = "green";
+                isChecked = true;
+                // Auto next after short delay
+                setTimeout(() => {
+                    nextSentence();
+                }, 500);
             } else {
                 resultEl.textContent = `❌ Not correct. Answer: ${sentences[index].answer}`;
                 resultEl.style.color = "red";
+                isChecked = true;
             }
         }
 
@@ -209,17 +215,12 @@
 
         // Button controls
         checkBtn.addEventListener("click", checkAnswer);
-        nextBtn.addEventListener("click", nextSentence);
 
         // Keyboard controls
         inputEl.addEventListener("keydown", (e) => {
-            if (e.key === "Enter") {
-                e.preventDefault();
-                checkAnswer();
-            }
             if (e.key === "Tab") {
                 e.preventDefault();
-                nextSentence();
+                checkAnswer();
             }
         });
 

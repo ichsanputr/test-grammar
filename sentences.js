@@ -262,7 +262,7 @@ export default [
     // --- Past Continuous ---
     {
         question: "Saya sedang belajar ketika dia menelepon.",
-        answer: "I was studying when he called",
+        answer: "I was studying when she called",
         tense: "Past Continuous"
     },
     {
@@ -314,7 +314,7 @@ export default [
     // --- Past Perfect ---
     {
         question: "Saya sudah makan sebelum dia datang.",
-        answer: "I had eaten before he came"
+        answer: "I had eaten before she came"
     },
     {
         question: "Dia sudah pergi ketika saya tiba.",
@@ -356,7 +356,7 @@ export default [
     // --- Past Perfect Continuous ---
     {
         question: "Saya sudah belajar selama dua jam sebelum dia datang.",
-        answer: "I had been studying for two hours before he came"
+        answer: "I had been studying for two hours before she came"
     },
     {
         question: "Dia sudah bekerja di sana selama lima tahun sebelum dia resign.",
@@ -482,7 +482,7 @@ export default [
     // --- Future Perfect ---
     {
         question: "Saya akan sudah menyelesaikan pekerjaan ini sebelum dia datang.",
-        answer: "I will have finished this work before he comes"
+        answer: "I will have finished this work before she comes"
     },
     {
         question: "Dia akan sudah pergi sebelum kamu tiba.",
@@ -586,7 +586,7 @@ export default [
     },
     {
         question: "Dia bilang dia akan belajar lebih keras.",
-        answer: "He said he would study harder"
+        answer: "He said she would study harder"
     },
     {
         question: "Mereka bilang mereka akan menyelesaikan proyek itu.",
@@ -624,7 +624,7 @@ export default [
     },
     {
         question: "Dia berkata dia akan sedang memasak ketika kami tiba.",
-        answer: "He said he would be cooking when we arrived"
+        answer: "He said she would be cooking when we arrived"
     },
     {
         question: "Mereka pikir mereka akan sedang bermain sepak bola sore itu.",
@@ -670,7 +670,7 @@ export default [
     },
     {
         question: "Dia pikir dia akan sudah belajar bahasa Inggris selama lima tahun.",
-        answer: "He thought he would have studied English for five years"
+        answer: "He thought she would have studied English for five years"
     },
     {
         question: "Mereka bilang mereka akan sudah menyelesaikan proyek itu akhir bulan lalu.",
@@ -712,7 +712,7 @@ export default [
     },
     {
         question: "Dia pikir dia akan sudah berlari selama satu jam pada jam 7 pagi.",
-        answer: "He thought he would have been running for one hour at 7 am"
+        answer: "He thought she would have been running for one hour at 7 am"
     },
     {
         question: "Mereka berkata mereka akan sudah belajar bahasa Inggris selama dua tahun bulan Juni lalu.",
@@ -750,7 +750,7 @@ export default [
     },
     {
         question: "Dia bisa berbicara tiga bahasa ketika dia masih kecil.",
-        answer: "He could speak three languages when he was young"
+        answer: "He could speak three languages when she was young"
     },
     {
         question: "Bisakah kamu membantu saya?",

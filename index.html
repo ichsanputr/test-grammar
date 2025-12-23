@@ -67,7 +67,15 @@
 <body>
 
     <h1>Indonesian to English Translation Practice</h1>
-    <p>Present Perfect Continuous Tense</p>
+    
+    <div style="margin-bottom: 20px;">
+        <label for="categorySelect" style="font-weight: bold;">Select Category: </label>
+        <select id="categorySelect" style="padding: 8px; font-size: 16px;">
+            <option value="sentences.js">Tenses</option>
+            <option value="sentences-questions.js">Conversation (Q&A)</option>
+        </select>
+    </div>
+
     <p>Enter = check · Tab = next</p>
 
     <div class="sentence" id="sentence"></div>
@@ -82,14 +90,7 @@
     <div class="result" id="result"></div>
 
     <script type="module">
-        import sentences from "./sentences.js";
-
-        // Shuffle sentences to randomize order
-        for (let i = sentences.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [sentences[i], sentences[j]] = [sentences[j], sentences[i]];
-        }
-
+        let sentences = [];
         let index = 0;
 
         const sentenceEl = document.getElementById("sentence");
@@ -97,6 +98,34 @@
         const resultEl = document.getElementById("result");
         const checkBtn = document.getElementById("checkBtn");
         const nextBtn = document.getElementById("nextBtn");
+        const categorySelect = document.getElementById("categorySelect");
+
+        async function loadSentences(filepath) {
+            try {
+                const module = await import(`./${filepath}`);
+                sentences = module.default;
+                
+                // Shuffle sentences to randomize order
+                for (let i = sentences.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [sentences[i], sentences[j]] = [sentences[j], sentences[i]];
+                }
+                
+                index = 0;
+                showSentence();
+            } catch (error) {
+                console.error("Error loading sentences:", error);
+                alert("Failed to load sentences file");
+            }
+        }
+
+        // Load initial sentences
+        loadSentences(categorySelect.value);
+
+        // Handle category change
+        categorySelect.addEventListener("change", (e) => {
+            loadSentences(e.target.value);
+        });
 
         function normalize(text) {
             return text

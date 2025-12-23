@@ -301,11 +301,17 @@
         function showSentence() {
             if (index >= practiceWords.length) {
                 sentenceEl.textContent = "🎉 Congratulations! You've completed all words!";
-                inputEl.style.display = 'none';
-                checkBtn.style.display = 'none';
+                inputEl.value = "";
+                inputEl.placeholder = "Practice complete!";
+                inputEl.disabled = true;
+                checkBtn.disabled = true;
+                resultEl.textContent = "";
                 return;
             }
             
+            inputEl.disabled = false;
+            checkBtn.disabled = false;
+            inputEl.placeholder = "Translate to English...";
             sentenceEl.textContent = practiceWords[index].indonesian;
             inputEl.value = "";
             resultEl.textContent = "";

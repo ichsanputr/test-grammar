@@ -781,5 +781,467 @@ export default [
     {
         question: "Maaf ya aku telat datang.",
         answer: "Sorry I came late."
+    },
+
+    // --- Shopping & Retail ---
+    {
+        question: "Berapa harga sepatu ini?",
+        answer: "How much are these shoes?"
+    },
+    {
+        question: "Apakah ada diskon untuk produk ini?",
+        answer: "Is there a discount for this product?"
+    },
+    {
+        question: "Boleh saya coba yang ini?",
+        answer: "May I try this one?"
+    },
+    {
+        question: "Apakah ada ukuran yang lebih besar?",
+        answer: "Do you have a bigger size?"
+    },
+    {
+        question: "Saya mencari kemeja warna biru.",
+        answer: "I'm looking for a blue shirt."
+    },
+    {
+        question: "Apakah Anda menerima pembayaran kartu kredit?",
+        answer: "Do you accept credit card payment?"
+    },
+    {
+        question: "Bisakah saya mendapatkan struk pembelian?",
+        answer: "Can I get a receipt?"
+    },
+    {
+        question: "Apakah barang ini bisa dikembalikan?",
+        answer: "Can this item be returned?"
+    },
+    {
+        question: "Dimana ruang ganti pakaian?",
+        answer: "Where is the fitting room?"
+    },
+    {
+        question: "Saya ingin menukar barang yang kemarin saya beli.",
+        answer: "I want to exchange the item I bought yesterday."
+    },
+
+    // --- Health & Medical ---
+    {
+        question: "Saya merasa kurang enak badan hari ini.",
+        answer: "I don't feel well today."
+    },
+    {
+        question: "Dimana apotek terdekat?",
+        answer: "Where is the nearest pharmacy?"
+    },
+    {
+        question: "Saya perlu membuat janji dengan dokter.",
+        answer: "I need to make an appointment with a doctor."
+    },
+    {
+        question: "Apakah Anda alergi terhadap sesuatu?",
+        answer: "Are you allergic to anything?"
+    },
+    {
+        question: "Saya pusing dan mual sejak tadi pagi.",
+        answer: "I've been dizzy and nauseous since this morning."
+    },
+    {
+        question: "Sudah berapa lama Anda merasa sakit?",
+        answer: "How long have you been feeling sick?"
+    },
+    {
+        question: "Apakah saya perlu resep dokter untuk obat ini?",
+        answer: "Do I need a prescription for this medicine?"
+    },
+    {
+        question: "Saya harus minum obat ini berapa kali sehari?",
+        answer: "How many times a day should I take this medicine?"
+    },
+    {
+        question: "Kepala saya sakit sejak kemarin.",
+        answer: "My head has been hurting since yesterday."
+    },
+    {
+        question: "Saya perlu istirahat total beberapa hari.",
+        answer: "I need complete rest for a few days."
+    },
+
+    // --- Travel & Transportation ---
+    {
+        question: "Jam berapa kereta berikutnya ke Jakarta?",
+        answer: "What time is the next train to Jakarta?"
+    },
+    {
+        question: "Berapa lama perjalanan ke bandara?",
+        answer: "How long is the journey to the airport?"
+    },
+    {
+        question: "Dimana saya bisa membeli tiket bus?",
+        answer: "Where can I buy a bus ticket?"
+    },
+    {
+        question: "Apakah penerbangan ini mengalami keterlambatan?",
+        answer: "Is this flight delayed?"
+    },
+    {
+        question: "Saya ingin memesan tiket pulang pergi.",
+        answer: "I want to book a round-trip ticket."
+    },
+    {
+        question: "Dimana terminal untuk penerbangan internasional?",
+        answer: "Where is the terminal for international flights?"
+    },
+    {
+        question: "Apakah ada taksi yang tersedia?",
+        answer: "Are there any taxis available?"
+    },
+    {
+        question: "Berapa tarif ke pusat kota?",
+        answer: "How much is the fare to downtown?"
+    },
+    {
+        question: "Saya tersesat, bisakah Anda membantu saya?",
+        answer: "I'm lost, can you help me?"
+    },
+    {
+        question: "Apakah ini jalan yang benar ke museum?",
+        answer: "Is this the right way to the museum?"
+    },
+
+    // --- Technology & Internet ---
+    {
+        question: "WiFi saya tidak berfungsi dengan baik.",
+        answer: "My WiFi is not working properly."
+    },
+    {
+        question: "Apakah Anda tahu password WiFi-nya?",
+        answer: "Do you know the WiFi password?"
+    },
+    {
+        question: "Laptop saya hang terus sejak tadi.",
+        answer: "My laptop keeps freezing since earlier."
+    },
+    {
+        question: "Dimana saya bisa charger handphone?",
+        answer: "Where can I charge my phone?"
+    },
+    {
+        question: "Aplikasi ini tidak bisa dibuka.",
+        answer: "This app won't open."
+    },
+    {
+        question: "Saya lupa kata sandi akun saya.",
+        answer: "I forgot my account password."
+    },
+    {
+        question: "Apakah Anda bisa memperbaiki komputer ini?",
+        answer: "Can you fix this computer?"
+    },
+    {
+        question: "Saya perlu backup data penting saya.",
+        answer: "I need to backup my important data."
+    },
+    {
+        question: "Internet di sini sangat lambat.",
+        answer: "The internet here is very slow."
+    },
+    {
+        question: "Apakah ada colokan listrik di sini?",
+        answer: "Is there a power outlet here?"
+    },
+
+    // --- Education & Learning ---
+    {
+        question: "Kapan ujian semester dimulai?",
+        answer: "When does the semester exam start?"
+    },
+    {
+        question: "Saya tidak mengerti materi pelajaran hari ini.",
+        answer: "I don't understand today's lesson material."
+    },
+    {
+        question: "Bisakah Anda menjelaskan lagi?",
+        answer: "Can you explain again?"
+    },
+    {
+        question: "Kapan batas waktu pengumpulan tugas?",
+        answer: "When is the assignment deadline?"
+    },
+    {
+        question: "Dimana saya bisa meminjam buku ini?",
+        answer: "Where can I borrow this book?"
+    },
+    {
+        question: "Apakah ada kelas tambahan akhir pekan ini?",
+        answer: "Are there any extra classes this weekend?"
+    },
+    {
+        question: "Saya ingin mendaftar kursus bahasa Inggris.",
+        answer: "I want to register for an English course."
+    },
+    {
+        question: "Berapa biaya kuliah per semester?",
+        answer: "How much is the tuition fee per semester?"
+    },
+    {
+        question: "Apakah nilai saya sudah keluar?",
+        answer: "Are my grades out yet?"
+    },
+    {
+        question: "Saya perlu berbicara dengan dosen pembimbing saya.",
+        answer: "I need to speak with my academic advisor."
+    },
+
+    // --- Restaurant & Dining ---
+    {
+        question: "Apakah ada meja untuk dua orang?",
+        answer: "Do you have a table for two?"
+    },
+    {
+        question: "Boleh saya lihat menunya?",
+        answer: "May I see the menu?"
+    },
+    {
+        question: "Apa menu spesial hari ini?",
+        answer: "What's the special menu today?"
+    },
+    {
+        question: "Saya mau pesan nasi goreng dan es teh.",
+        answer: "I want to order fried rice and iced tea."
+    },
+    {
+        question: "Apakah makanan ini pedas?",
+        answer: "Is this food spicy?"
+    },
+    {
+        question: "Tolong kurangi pedasnya.",
+        answer: "Please make it less spicy."
+    },
+    {
+        question: "Berapa lama waktu tunggunya?",
+        answer: "How long is the waiting time?"
+    },
+    {
+        question: "Boleh minta bon-nya?",
+        answer: "Can I have the bill?"
+    },
+    {
+        question: "Apakah sudah termasuk pajak?",
+        answer: "Is tax included?"
+    },
+    {
+        question: "Makanannya sangat enak!",
+        answer: "The food is delicious!"
+    },
+
+    // --- Housing & Accommodation ---
+    {
+        question: "Saya mencari apartemen untuk disewa.",
+        answer: "I'm looking for an apartment to rent."
+    },
+    {
+        question: "Berapa sewa bulanannya?",
+        answer: "How much is the monthly rent?"
+    },
+    {
+        question: "Apakah sudah termasuk biaya listrik dan air?",
+        answer: "Does it include electricity and water bills?"
+    },
+    {
+        question: "Bisakah saya melihat kamarnya dulu?",
+        answer: "Can I see the room first?"
+    },
+    {
+        question: "AC di kamar saya rusak.",
+        answer: "The AC in my room is broken."
+    },
+    {
+        question: "Apakah boleh pelihara hewan?",
+        answer: "Are pets allowed?"
+    },
+    {
+        question: "Dimana tempat parkir mobil?",
+        answer: "Where is the car parking area?"
+    },
+    {
+        question: "Kapan saya bisa pindah masuk?",
+        answer: "When can I move in?"
+    },
+    {
+        question: "Apakah ada fasilitas laundry?",
+        answer: "Is there a laundry facility?"
+    },
+    {
+        question: "Saya perlu memanggil tukang untuk memperbaiki keran.",
+        answer: "I need to call a plumber to fix the faucet."
+    },
+
+    // --- Sports & Fitness ---
+    {
+        question: "Apakah Anda suka olahraga?",
+        answer: "Do you like sports?"
+    },
+    {
+        question: "Saya pergi ke gym tiga kali seminggu.",
+        answer: "I go to the gym three times a week."
+    },
+    {
+        question: "Olahraga favorit saya adalah sepak bola.",
+        answer: "My favorite sport is soccer."
+    },
+    {
+        question: "Apakah Anda mau main badminton besok?",
+        answer: "Do you want to play badminton tomorrow?"
+    },
+    {
+        question: "Saya suka jogging di pagi hari.",
+        answer: "I like jogging in the morning."
+    },
+    {
+        question: "Berapa lama Anda berolahraga setiap hari?",
+        answer: "How long do you exercise every day?"
+    },
+    {
+        question: "Saya ingin belajar berenang.",
+        answer: "I want to learn how to swim."
+    },
+    {
+        question: "Apakah ada lapangan basket di dekat sini?",
+        answer: "Is there a basketball court near here?"
+    },
+    {
+        question: "Saya lelah setelah lari 5 kilometer.",
+        answer: "I'm tired after running 5 kilometers."
+    },
+    {
+        question: "Tim favorit saya menang kemarin malam.",
+        answer: "My favorite team won last night."
+    },
+
+    // --- Banking & Finance ---
+    {
+        question: "Dimana ATM terdekat?",
+        answer: "Where is the nearest ATM?"
+    },
+    {
+        question: "Saya ingin membuka rekening baru.",
+        answer: "I want to open a new account."
+    },
+    {
+        question: "Berapa saldo rekening saya?",
+        answer: "What is my account balance?"
+    },
+    {
+        question: "Saya perlu transfer uang ke rekening lain.",
+        answer: "I need to transfer money to another account."
+    },
+    {
+        question: "Kartu ATM saya tertelan mesin.",
+        answer: "My ATM card got swallowed by the machine."
+    },
+    {
+        question: "Apakah ada biaya administrasi bulanan?",
+        answer: "Is there a monthly administration fee?"
+    },
+    {
+        question: "Saya ingin mengajukan pinjaman.",
+        answer: "I want to apply for a loan."
+    },
+    {
+        question: "Bagaimana cara menggunakan mobile banking?",
+        answer: "How do I use mobile banking?"
+    },
+    {
+        question: "Saya kehilangan kartu kredit saya.",
+        answer: "I lost my credit card."
+    },
+    {
+        question: "Apakah transaksi ini sudah masuk?",
+        answer: "Has this transaction gone through?"
+    },
+
+    // --- Weather & Nature ---
+    {
+        question: "Bagaimana cuaca hari ini?",
+        answer: "How is the weather today?"
+    },
+    {
+        question: "Apakah besok akan hujan?",
+        answer: "Will it rain tomorrow?"
+    },
+    {
+        question: "Cuaca sangat dingin pagi ini.",
+        answer: "The weather is very cold this morning."
+    },
+    {
+        question: "Saya suka musim semi.",
+        answer: "I like spring season."
+    },
+    {
+        question: "Angin kencang sekali hari ini.",
+        answer: "The wind is very strong today."
+    },
+    {
+        question: "Matahari sangat terik siang ini.",
+        answer: "The sun is very hot this afternoon."
+    },
+    {
+        question: "Langit mendung, sepertinya akan hujan.",
+        answer: "The sky is cloudy, it looks like it's going to rain."
+    },
+    {
+        question: "Suhu hari ini mencapai 35 derajat.",
+        answer: "The temperature today reaches 35 degrees."
+    },
+    {
+        question: "Saya suka jalan-jalan saat cuaca cerah.",
+        answer: "I like to walk when the weather is clear."
+    },
+    {
+        question: "Hujan lebat sejak tadi malam.",
+        answer: "It's been raining heavily since last night."
+    },
+
+    // --- Emergency Situations ---
+    {
+        question: "Tolong! Saya butuh bantuan!",
+        answer: "Help! I need assistance!"
+    },
+    {
+        question: "Panggil ambulans sekarang!",
+        answer: "Call an ambulance now!"
+    },
+    {
+        question: "Ada kecelakaan di jalan tol.",
+        answer: "There's an accident on the highway."
+    },
+    {
+        question: "Dimana rumah sakit terdekat?",
+        answer: "Where is the nearest hospital?"
+    },
+    {
+        question: "Saya kehilangan dompet saya.",
+        answer: "I lost my wallet."
+    },
+    {
+        question: "Tolong hubungi polisi!",
+        answer: "Please call the police!"
+    },
+    {
+        question: "Ada kebakaran di gedung sebelah.",
+        answer: "There's a fire in the building next door."
+    },
+    {
+        question: "Saya terkunci di luar rumah.",
+        answer: "I'm locked out of my house."
+    },
+    {
+        question: "Paspor saya hilang, apa yang harus saya lakukan?",
+        answer: "My passport is missing, what should I do?"
+    },
+    {
+        question: "Ada yang mencurigakan di sekitar sini.",
+        answer: "There's something suspicious around here."
     }
 ];

@@ -463,5 +463,323 @@ export default [
     {
         question: "Saya komunikatif dan selalu menghargai pendapat rekan kerja.",
         answer: "I'm communicative and always respect my colleagues' opinions."
+    },
+
+    // --- Common Answers & Responses ---
+    {
+        question: "Aku sudah makan tadi.",
+        answer: "I already ate earlier."
+    },
+    {
+        question: "Maaf, aku tadi lagi di jalan.",
+        answer: "Sorry, I was on the road earlier."
+    },
+    {
+        question: "Iya, aku sudah tahu tentang itu.",
+        answer: "Yes, I already know about that."
+    },
+    {
+        question: "Belum, aku masih di kantor sekarang.",
+        answer: "Not yet, I'm still at the office now."
+    },
+    {
+        question: "Haha maaf ya, tadi sore aku mandi dulu.",
+        answer: "Haha sorry, I took a shower this afternoon first."
+    },
+    {
+        question: "Aku lagi sibuk banget minggu ini.",
+        answer: "I'm really busy this week."
+    },
+    {
+        question: "Sorry, dulu waktu aku kerja di Jakarta aku sering begitu.",
+        answer: "Sorry, back when I worked in Jakarta I often did that."
+    },
+    {
+        question: "Aku baru sampai rumah 5 menit yang lalu.",
+        answer: "I just got home 5 minutes ago."
+    },
+    {
+        question: "Maaf telat balas, tadi hp-ku mati.",
+        answer: "Sorry for the late reply, my phone died earlier."
+    },
+    {
+        question: "Aku lagi di perjalanan nih.",
+        answer: "I'm on my way right now."
+    },
+    {
+        question: "Tunggu sebentar ya, aku lagi nyelesain ini dulu.",
+        answer: "Wait a moment, I'm finishing this first."
+    },
+    {
+        question: "Iya nanti aku kabarin lagi.",
+        answer: "Yes, I'll let you know later."
+    },
+    {
+        question: "Aku lupa bawa dompet tadi.",
+        answer: "I forgot to bring my wallet earlier."
+    },
+    {
+        question: "Kemarin aku sakit jadi gak bisa datang.",
+        answer: "I was sick yesterday so I couldn't come."
+    },
+    {
+        question: "Aku tadi ketinggalan bus pagi.",
+        answer: "I missed the morning bus earlier."
+    },
+    {
+        question: "Bentar lagi aku sampai kok.",
+        answer: "I'll be there soon."
+    },
+    {
+        question: "Aku masih mikir-mikir dulu.",
+        answer: "I'm still thinking about it."
+    },
+    {
+        question: "Iya boleh, aku setuju.",
+        answer: "Yes sure, I agree."
+    },
+    {
+        question: "Waduh, aku gak sempat tadi pagi.",
+        answer: "Oh no, I didn't have time this morning."
+    },
+    {
+        question: "Tadi aku coba telepon tapi gak diangkat.",
+        answer: "I tried calling earlier but you didn't pick up."
+    },
+    {
+        question: "Aku udah selesai ngerjain tugasnya.",
+        answer: "I've already finished the assignment."
+    },
+    {
+        question: "Aku barusan dari meeting sama klien.",
+        answer: "I just came from a meeting with a client."
+    },
+    {
+        question: "Kebetulan aku lagi kosong hari ini.",
+        answer: "I happen to be free today."
+    },
+    {
+        question: "Maaf, aku baru baca pesanmu sekarang.",
+        answer: "Sorry, I just read your message now."
+    },
+    {
+        question: "Aku masih di rumah nih, belum berangkat.",
+        answer: "I'm still at home, haven't left yet."
+    },
+    {
+        question: "Tadi macet parah di jalan.",
+        answer: "The traffic was terrible earlier."
+    },
+    {
+        question: "Aku gak bisa besok, ada acara keluarga.",
+        answer: "I can't tomorrow, I have a family event."
+    },
+    {
+        question: "Iya aku inget kok, tenang aja.",
+        answer: "Yes I remember, don't worry."
+    },
+    {
+        question: "Aku tadi sempat lihat dia di kantin.",
+        answer: "I saw him at the cafeteria earlier."
+    },
+    {
+        question: "Belum sempat, nanti sore aku coba.",
+        answer: "Haven't had a chance, I'll try this afternoon."
+    },
+    {
+        question: "Aku lagi males keluar hari ini.",
+        answer: "I don't feel like going out today."
+    },
+    {
+        question: "Tadi aku coba tapi sistemnya error.",
+        answer: "I tried earlier but the system was down."
+    },
+    {
+        question: "Aku masih nungguin konfirmasi dari bos.",
+        answer: "I'm still waiting for confirmation from the boss."
+    },
+    {
+        question: "Iya deh, terserah kamu aja.",
+        answer: "Okay fine, it's up to you."
+    },
+    {
+        question: "Aku lagi capek banget hari ini.",
+        answer: "I'm really tired today."
+    },
+    {
+        question: "Kayaknya aku gak jadi pergi deh.",
+        answer: "I don't think I'll go after all."
+    },
+    {
+        question: "Aku udah nyiapin semuanya dari kemarin.",
+        answer: "I've prepared everything since yesterday."
+    },
+    {
+        question: "Gak tau deh, aku juga bingung.",
+        answer: "I don't know, I'm confused too."
+    },
+    {
+        question: "Aku harus pulang duluan hari ini.",
+        answer: "I have to go home early today."
+    },
+    {
+        question: "Tadi aku ketemu temen lama.",
+        answer: "I met an old friend earlier."
+    },
+    {
+        question: "Aku lagi nunggu orderan makanan nih.",
+        answer: "I'm waiting for my food order."
+    },
+    {
+        question: "Besok aku ada jadwal dokter.",
+        answer: "I have a doctor's appointment tomorrow."
+    },
+    {
+        question: "Aku belum sempat cek email tadi.",
+        answer: "I haven't had time to check my email yet."
+    },
+    {
+        question: "Kayaknya hujan deh, aku bawa payung.",
+        answer: "I think it's going to rain, I brought an umbrella."
+    },
+    {
+        question: "Aku gak terlalu suka yang itu.",
+        answer: "I don't really like that one."
+    },
+    {
+        question: "Tadi aku nyoba resep baru.",
+        answer: "I tried a new recipe earlier."
+    },
+    {
+        question: "Aku masih belajar bahasa Inggris.",
+        answer: "I'm still learning English."
+    },
+    {
+        question: "Kemarin aku begadang sampai pagi.",
+        answer: "I stayed up all night yesterday."
+    },
+    {
+        question: "Aku gak bisa makan pedas.",
+        answer: "I can't eat spicy food."
+    },
+    {
+        question: "Tadi aku udah kirim file-nya.",
+        answer: "I already sent the file earlier."
+    },
+    {
+        question: "Aku lagi nabung buat liburan.",
+        answer: "I'm saving up for a vacation."
+    },
+    {
+        question: "Maaf ya, aku lupa bilang.",
+        answer: "Sorry, I forgot to tell you."
+    },
+    {
+        question: "Aku pernah tinggal di Bali dulu.",
+        answer: "I used to live in Bali."
+    },
+    {
+        question: "Tadi aku gak sengaja hapus chat-nya.",
+        answer: "I accidentally deleted the chat earlier."
+    },
+    {
+        question: "Aku mau istirahat dulu 5 menit.",
+        answer: "I want to rest for 5 minutes first."
+    },
+    {
+        question: "Kayaknya aku salah paham deh.",
+        answer: "I think I misunderstood."
+    },
+    {
+        question: "Aku suka banget sama lagu ini.",
+        answer: "I really love this song."
+    },
+    {
+        question: "Tadi aku sempat tidur siang.",
+        answer: "I took a nap earlier."
+    },
+    {
+        question: "Aku gak yakin apa itu bener.",
+        answer: "I'm not sure if that's correct."
+    },
+    {
+        question: "Iya aku juga liat beritanya tadi.",
+        answer: "Yes, I saw the news too earlier."
+    },
+    {
+        question: "Aku lagi diet nih sekarang.",
+        answer: "I'm on a diet right now."
+    },
+    {
+        question: "Tadi aku parkir jauh banget.",
+        answer: "I parked really far away earlier."
+    },
+    {
+        question: "Aku biasanya bangun jam 6 pagi.",
+        answer: "I usually wake up at 6 AM."
+    },
+    {
+        question: "Kayaknya aku kenal orang itu.",
+        answer: "I think I know that person."
+    },
+    {
+        question: "Aku belum makan siang nih.",
+        answer: "I haven't had lunch yet."
+    },
+    {
+        question: "Tadi aku jalan kaki ke sini.",
+        answer: "I walked here earlier."
+    },
+    {
+        question: "Aku gak tahu harus bilang apa.",
+        answer: "I don't know what to say."
+    },
+    {
+        question: "Aku lagi mikirin sesuatu nih.",
+        answer: "I'm thinking about something."
+    },
+    {
+        question: "Iya nanti aku coba lagi deh.",
+        answer: "Yes, I'll try again later."
+    },
+    {
+        question: "Aku butuh kopi sekarang juga.",
+        answer: "I need coffee right now."
+    },
+    {
+        question: "Tadi aku liat ada diskon besar.",
+        answer: "I saw there was a big discount earlier."
+    },
+    {
+        question: "Aku gak sempat sarapan tadi pagi.",
+        answer: "I didn't have time for breakfast this morning."
+    },
+    {
+        question: "Kemarin aku nonton film bagus banget.",
+        answer: "I watched a really good movie yesterday."
+    },
+    {
+        question: "Aku lagi ngejar deadline nih.",
+        answer: "I'm chasing a deadline right now."
+    },
+    {
+        question: "Tadi aku ketinggalan kunci mobil.",
+        answer: "I left my car keys behind earlier."
+    },
+    {
+        question: "Aku pengen pulang kampung tahun ini.",
+        answer: "I want to go back to my hometown this year."
+    },
+    {
+        question: "Kayaknya aku harus beli yang baru.",
+        answer: "I think I need to buy a new one."
+    },
+    {
+        question: "Aku udah checkout barangnya tadi.",
+        answer: "I already checked out the items earlier."
+    },
+    {
+        question: "Maaf ya aku telat datang.",
+        answer: "Sorry I came late."
     }
 ];

@@ -164,6 +164,35 @@
         p {
             color: var(--secondary-text);
         }
+
+        .progress-container {
+            margin-bottom: 20px;
+            background: var(--input-bg);
+            border: 2px solid var(--input-border);
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .progress-text {
+            font-size: 14px;
+            color: var(--text-color);
+            margin-bottom: 5px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: var(--input-border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--button-bg-start), var(--button-bg-end));
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
@@ -172,6 +201,13 @@
     <div class="header-container">
         <h1>Indonesian to English - Learn Common Words</h1>
         <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-text" id="progressText">Loading...</div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
     </div>
 
     <p>Tab = check (auto next if correct)</p>
@@ -187,14 +223,19 @@
     <div class="result" id="result"></div>
 
     <script type="module">
-        let words = [];
+        let allWords = [];
+        let practiceWords = [];
         let index = 0;
+        let wordCounts = {};
+        const MAX_APPEARANCES = 2;
 
         const sentenceEl = document.getElementById("sentence");
         const inputEl = document.getElementById("input");
         const resultEl = document.getElementById("result");
         const checkBtn = document.getElementById("checkBtn");
         const themeToggle = document.getElementById("themeToggle");
+        const progressText = document.getElementById("progressText");
+        const progressFill = document.getElementById("progressFill");
         let isChecked = false;
 
         // Theme management
@@ -213,15 +254,24 @@
         async function loadWords() {
             try {
                 const module = await import('./words.js');
-                words = module.default;
+                allWords = module.default;
                 
-                // Shuffle words to randomize order
-                for (let i = words.length - 1; i > 0; i--) {
+                // Create practice list: each word appears MAX_APPEARANCES times
+                practiceWords = [];
+                allWords.forEach(word => {
+                    for (let i = 0; i < MAX_APPEARANCES; i++) {
+                        practiceWords.push({...word});
+                    }
+                });
+                
+                // Shuffle practice words to randomize order
+                for (let i = practiceWords.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
-                    [words[i], words[j]] = [words[j], words[i]];
+                    [practiceWords[i], practiceWords[j]] = [practiceWords[j], practiceWords[i]];
                 }
                 
                 index = 0;
+                updateProgress();
                 showSentence();
             } catch (error) {
                 console.error("Error loading words:", error);
@@ -232,6 +282,15 @@
         // Load words
         loadWords();
 
+        function updateProgress() {
+            const total = practiceWords.length;
+            const remaining = total - index;
+            const percentage = ((index / total) * 100).toFixed(1);
+            
+            progressText.textContent = `Progress: ${index} / ${total} (${remaining} remaining)`;
+            progressFill.style.width = percentage + '%';
+        }
+
         function normalize(text) {
             return text
                 .trim()
@@ -240,7 +299,14 @@
         }
 
         function showSentence() {
-            sentenceEl.textContent = words[index].indonesian;
+            if (index >= practiceWords.length) {
+                sentenceEl.textContent = "🎉 Congratulations! You've completed all words!";
+                inputEl.style.display = 'none';
+                checkBtn.style.display = 'none';
+                return;
+            }
+            
+            sentenceEl.textContent = practiceWords[index].indonesian;
             inputEl.value = "";
             resultEl.textContent = "";
             isChecked = false;
@@ -248,8 +314,10 @@
         }
 
         function checkAnswer() {
+            if (index >= practiceWords.length) return;
+            
             const userText = normalize(inputEl.value);
-            const correctText = normalize(words[index].english);
+            const correctText = normalize(practiceWords[index].english);
 
             if (userText === correctText) {
                 resultEl.textContent = "✅ Correct!";
@@ -260,7 +328,7 @@
                     nextSentence();
                 }, 500);
             } else {
-                resultEl.textContent = `❌ Not correct. Answer: ${words[index].english}`;
+                resultEl.textContent = `❌ Not correct. Answer: ${practiceWords[index].english}`;
                 resultEl.style.color = "red";
                 isChecked = true;
             }
@@ -268,10 +336,7 @@
 
         function nextSentence() {
             index++;
-            if (index >= words.length) {
-                index = 0;
-                alert("You finished all words! Starting again.");
-            }
+            updateProgress();
             showSentence();
         }
 
